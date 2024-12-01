@@ -1,62 +1,11 @@
-.container {
+/* styles/global.css */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
   font-family: Arial, sans-serif;
-  padding: 20px;
-}
-
-.navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #333;
-  padding: 10px;
-  text-align: center;
-}
-
-.navbar ul {
-  list-style-type: none;
   margin: 0;
   padding: 0;
-}
-
-.navbar ul li {
-  display: inline;
-  margin: 0 15px;
-}
-
-.navbar ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-.navbar ul li a:hover {
-  text-decoration: underline;
-}
-
-.section {
-  margin-top: 80px;
-  padding: 20px;
-  margin-bottom: 40px;
-  background-color: #f4f4f9;
-  border-radius: 8px;
-}
-
-h2 {
-  color: #333;
-}
-
-ul {
-  list-style-type: none;
-}
-
-ul li {
-  margin: 5px 0;
-}
-
-a {
-  color: #0070f3;
-}
-
-a:hover {
-  text-decoration: underline;
+  box-sizing: border-box;
 }
